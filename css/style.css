@@ -21,8 +21,8 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Source Sans Pro", sans-serif;
-    color: #aebcb9;
-    background-color: darkgreen;
+    color: white;
+    background-color: indigo;
 }
 a {
     text-decoration: none;
@@ -1264,4 +1264,12 @@ xpush
         -o-transform: translateX(100%);
         transform: translateX(100%);
     }
+}
+#header {
+    height: 200px;
+    background-color: darkslategrey;
+}
+#footer {
+    height: 100px;
+    background-color: darkslategrey;
 }
