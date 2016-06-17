@@ -1,8 +1,8 @@
-/* --------------------------------
+ --------------------------------
 
 Primary style
 
--------------------------------- */
+--------------------------------
 
 *,
 *::after,
@@ -14,15 +14,7 @@ Primary style
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-html {
-    font-size: 62.5%;
-}
-body {
-    font-size: 1.6rem;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: black;
+
 }
 a {
     text-decoration: none;
@@ -33,9 +25,11 @@ a {
     line-height: 230px;
     text-align: center;
 }
+
 .cd-title h1 {
     font-size: 2.4rem;
     font-weight: 700;
+
 }
 @media only screen and (min-width: 768px) {
     .cd-title {
@@ -47,10 +41,13 @@ a {
         height: 200px;
         line-height: 300px;
     }
+
     .cd-title h1 {
         font-size: 3rem;
     }
+
 }
+
 .cd-intro {
     width: 90%;
     max-width: 768px;
@@ -68,6 +65,7 @@ a {
     .cd-intro {
         margin: 6em auto;
     }
+
 }
 .cd-headline {
     font-size: 3rem;
@@ -81,7 +79,7 @@ a {
 }
 @media only screen and (min-width: 1170px) {
     .cd-headline {
-        font-size: 6rem;
+        font-size: 3rem;
     }
 }
 .cd-words-wrapper {
@@ -106,11 +104,11 @@ a {
     opacity: 1;
 }
 
-/* --------------------------------
+ --------------------------------
 
 xrotate-1
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.rotate-1 .cd-words-wrapper {
     -webkit-perspective: 300px;
@@ -278,18 +276,18 @@ xrotate-1
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xtype
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.type .cd-words-wrapper {
     vertical-align: top;
     overflow: hidden;
 }
 .cd-headline.type .cd-words-wrapper::after {
-    /* vertical bar */
+     vertical bar
     content: '';
     position: absolute;
     right: 0;
@@ -387,11 +385,11 @@ xtype
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xrotate-2
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.rotate-2 .cd-words-wrapper {
     -webkit-perspective: 300px;
@@ -567,22 +565,24 @@ xrotate-2
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xloading-bar
 
--------------------------------- */
+--------------------------------
+
 
 .cd-headline.loading-bar span {
     display: inline-block;
     padding: .2em 0;
+
 }
 .cd-headline.loading-bar .cd-words-wrapper {
     overflow: hidden;
     vertical-align: top;
 }
 .cd-headline.loading-bar .cd-words-wrapper::after {
-    /* loading bar */
+     loading bar
     content: '';
     position: absolute;
     left: 0;
@@ -613,15 +613,17 @@ xloading-bar
     top: 0;
 }
 
-/* --------------------------------
+ --------------------------------
 
 xslide
 
--------------------------------- */
+--------------------------------
+
 
 .cd-headline.slide span {
     display: inline-block;
     padding: .2em 0;
+
 }
 .cd-headline.slide .cd-words-wrapper {
     overflow: hidden;
@@ -752,22 +754,24 @@ xslide
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xclip
 
--------------------------------- */
+--------------------------------
+
 
 .cd-headline.clip span {
     display: inline-block;
     padding: .2em 0;
+
 }
 .cd-headline.clip .cd-words-wrapper {
     overflow: hidden;
     vertical-align: top;
 }
 .cd-headline.clip .cd-words-wrapper::after {
-    /* line */
+     line
     content: '';
     position: absolute;
     top: 0;
@@ -783,11 +787,11 @@ xclip
     opacity: 1;
 }
 
-/* --------------------------------
+ --------------------------------
 
 xzoom
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.zoom .cd-words-wrapper {
     -webkit-perspective: 300px;
@@ -885,11 +889,11 @@ xzoom
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xrotate-3
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.rotate-3 .cd-words-wrapper {
     -webkit-perspective: 300px;
@@ -1002,11 +1006,11 @@ xrotate-3
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xscale
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.scale b {
     opacity: 0;
@@ -1137,11 +1141,11 @@ xscale
     }
 }
 
-/* --------------------------------
+ --------------------------------
 
 xpush
 
--------------------------------- */
+--------------------------------
 
 .cd-headline.push b {
     opacity: 0;
