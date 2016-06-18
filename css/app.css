@@ -28,8 +28,13 @@ li{
      text-decoration: none;
     font-size: 16px;
     align-content: center;
-}    li a{padding-right: 50px;
 }
+li a{
+    padding-right: 50px;
+
+}
+li a:hover {
+    background-color: black;}
 .head{
     background-color: yellow;
     color: maroon;
@@ -37,10 +42,14 @@ li{
     height: 90px;
 }
 .menu{
-
+background-image: url(../img/fries.jpg);
+    color: black;
+}
+.menu h1{color: black;
 }
 .footer{
-    background-color: yellowgreen;
+    background-color: yellow;
     padding-bottom: 40px;
     padding-top: 40px;
+    color: black;
 }
